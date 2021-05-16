@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99 demo Application Automation Test Suit]">
+  <test thread-count="5" name="Guru99 App Test Cases(failed)">
+    <classes>
+      <class name="com.guru99.demo.testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkAlertText" invocation-numbers="8 9 10 11"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guru99.demo.testcases.LoginTest -->
+      <class name="com.guru99.demo.testcases.AddCustomerTest">
+        <methods>
+          <include name="createNewCustomer" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guru99.demo.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Guru99 App Test Cases(failed) -->
+</suite> <!-- Failed suite [Guru99 demo Application Automation Test Suit] -->
